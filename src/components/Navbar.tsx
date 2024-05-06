@@ -26,7 +26,7 @@ function Navbar() {
           <li className='p-4 border-b border-gray-600 text-white'>Home</li>
           <li className='p-4 border-b border-gray-600 text-white'>Services</li>
           <li className='p-4 whitespace-nowrap border-b border-gray-600 text-white'>Contact us</li>
-          <button className='bg-[#205a48] w-[50px] rounded-md mx-24 px-24 py-4 my-7 whitespace-nowrap flex justify-center items-center text-white font-semibold'>Login in {'->'}</button>
+          <button className='bg-[#205a48] w-[50px] rounded-md px-24 py-4 my-7 whitespace-nowrap flex justify-center items-center text-white font-semibold'>Login in {'->'}</button>
       </ul>
     </div>
   )
