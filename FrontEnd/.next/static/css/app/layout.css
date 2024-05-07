@@ -596,6 +596,10 @@ video {
   margin-left: auto;
   margin-right: auto;
 }
+.my-24 {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
 .my-7 {
   margin-top: 1.75rem;
   margin-bottom: 1.75rem;
@@ -708,9 +712,6 @@ video {
 .gap-4 {
   gap: 1rem;
 }
-.gap-y-4 {
-  row-gap: 1rem;
-}
 .gap-y-6 {
   row-gap: 1.5rem;
 }
@@ -794,9 +795,9 @@ video {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+.py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 .pt-12 {
   padding-top: 3rem;
@@ -909,10 +910,6 @@ body {
   z-index: 100;
 }
 
-.\*\:flex-wrap > * {
-  flex-wrap: wrap;
-}
-
 @media (min-width: 640px) {
 
   .sm\:text-2xl {
@@ -946,14 +943,6 @@ body {
 
   .md\:flex-row {
     flex-direction: row;
-  }
-
-  .md\:flex-wrap {
-    flex-wrap: wrap;
-  }
-
-  .md\:flex-nowrap {
-    flex-wrap: nowrap;
   }
 
   .md\:justify-start {

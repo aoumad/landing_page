@@ -4,6 +4,7 @@ import SponsorLIst from "@/components/SponsorLIst";
 import Feedback from "@/components/Feedback";
 import Statistics from "@/components/Statistics";
 import Image from "next/image";
+import Membership from "@/components/Membership";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <SponsorLIst />
       <Feedback />
       <Statistics />
+      <Membership />
     </div>
   );
 }
