@@ -1,8 +1,12 @@
 import React from 'react'
-import Logo from '@/assets/logo.png'
+import Logo from '@/assets/realLogo.png'
+import Logo2 from '@/assets/Logo2.png'
+import Logo3 from '@/assets/Logo3.png'
+import Logo4 from '@/assets/Logo4.png'
+import Logo5 from '@/assets/Logo5.png'
 import Image from 'next/image';
 function SponsorLIst() {
-    const sponsorLogos = [Logo, Logo, Logo,Logo, Logo, Logo, Logo,Logo, Logo, Logo,Logo, Logo, Logo];
+    const sponsorLogos = [Logo, Logo, Logo, Logo, Logo, Logo];
   return (
     <div className='flex flex-col bg-white'>
         <div className='flex flex-col flex-start justify-center items-center w-full py-16 px-4'>

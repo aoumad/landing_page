@@ -9,8 +9,11 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.19.2",
+    "faker": "^5.5.3",
     "hbs": "^4.2.0",
+    "mongodb": "6.5",
     "mongoose": "^8.3.4",
     "pg": "^8.11.5"
   },
