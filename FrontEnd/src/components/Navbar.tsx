@@ -21,8 +21,8 @@ function Navbar() {
       }
   return (
     <div className='flex justify-between items-center h-24 w-full mx-auto px-4 text-black bg-slate-50'>
-      <Login showLogin={showLogin} onClose={setShowLogin} />
-        <Image src={Logo} alt='Logo' sizes={50} />
+      <Login showLogin={showLogin} setShowLogin={setShowLogin} />
+        <Image src={Logo} alt='Logo' sizes="50" />
         {/* <h1 className='w-full text-3xl font text-black'>React Logo</h1> */}
         <ul className='hidden md:flex'>
             <li className='p-4'>Home</li>

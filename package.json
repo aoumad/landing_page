@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "@forestadmin/agent": "^1.40.0",
+    "@forestadmin/datasource-mongoose": "^1.7.6",
     "cors": "^2.8.5"
   }
 }

@@ -25,6 +25,12 @@
     )
     rgb(var(--background-start-rgb));
 } */
+App {
+  text-align: center;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
 body {
   background-color: rgba(231, 230, 230, 0.5);
 }
